@@ -1,0 +1,128 @@
+*{
+    font-family: Microsoft YaHei, simsun, Verdana, Geneva, sans-serif;
+}
+body{margin:0;padding:0; background: #E6E6E6;}
+ul,li,dl,dt,dd{ margin:0px; padding:0px; list-style:none;}
+a{text-decoration:none;color: #333;}
+a:link{}
+a:visited{}
+a:hover{text-decoration:none;}
+a:active{}
+img{border:0;padding:0; margin:0;}
+p{padding:0; margin:0;}
+b{
+    font-weight: bold;
+}
+
+.font_bold{
+    font-weight: bold;
+}
+.font_red{
+    color: #F00;
+}
+.font_yellow{
+    color: yellow;
+}
+.font_plum{
+    color: rgb(172, 57, 255);
+}
+.font_blue{
+    color: #227be9;
+}
+.font_pich{
+    color: #ea00ff;
+}
+.font_onred{
+    color: #be0000;
+}
+
+
+
+#main{
+    max-width: 640px; height: auto; overflow: hidden; background: #FFF;
+    border: 1px solid #c6c6c6; margin: 0 auto; padding: 12px 20px;
+}
+
+.autopic{
+    overflow: hidden; text-align: center;
+}
+.autopic img{
+    width: 100%;
+}
+
+.minipic{
+    overflow: hidden; text-align: center;
+}
+.minipic img{
+    max-width: 400px; width: 100%;
+}
+
+.tinypic{
+    overflow: hidden; text-align: center;
+}
+.tinypic img{
+    max-width: 260px;
+}
+
+
+.headbox{
+    height: auto; overflow: hidden; border-bottom: 1px solid #dbdbdb;
+    font: bold 22px/30px Microsoft YaHei, simsun, Verdana, Geneva, sans-serif;
+    padding: 14px 0;
+}
+.headnick{
+    height: 20px; overflow: hidden; font: 14px/20px Microsoft YaHei, simsun, Verdana, Geneva, sans-serif;
+    margin-top: 12px; color: #666;
+}
+.headnick span{
+    color: #607fa6; margin-left: 14px;
+}
+
+.content{
+    overflow: hidden; margin-top: 14px;
+}
+
+.content p{
+    font: 14px/24px Microsoft YaHei, simsun, Verdana, Geneva, sans-serif; margin: 4px 0;
+}
+.content p.after{
+    text-indent: 28px;
+}
+.content p.center{
+    text-align: center;
+}
+
+.nomaltext{
+    overflow: hidden; background:#FFF;
+    color: #333; font: 14px/24px Microsoft YaHei, simsun, Verdana, Geneva, sans-serif;
+}
+.pichtext{
+    overflow: hidden; border-radius: 4px; background:#f70ef4;
+    color: #FFFFFF; font: 14px/24px Microsoft YaHei, simsun, Verdana, Geneva, sans-serif;
+}
+.redtext{
+    overflow: hidden; border-radius: 4px; background: #FF0000;
+    color: #FFFFFF; font: 14px/24px Microsoft YaHei, simsun, Verdana, Geneva, sans-serif;
+}
+
+.inside{
+    padding: 0px 10px;
+}
+.intext{
+    padding: 4px 10px;
+}
+
+.mtop4{
+    margin-top: 4px;
+}
+.mtop10{
+    margin-top: 10px;
+}
+.mtop20{
+    margin-top: 20px;
+}
+
+#footer{
+    height: 40px; overflow: hidden; text-align: center; color: #ccc;
+    font: 14px/40px Microsoft YaHei, simsun, Verdana, Geneva, sans-serif;
+}
