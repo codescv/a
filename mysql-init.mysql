@@ -4,7 +4,6 @@ FLUSH PRIVILEGES;
 
 CREATE DATABASE `adsite`;
 USE adsite;
-Query OK, 0 rows affected (0.00 sec)
 CREATE TABLE `user_order` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(64) DEFAULT NULL,
